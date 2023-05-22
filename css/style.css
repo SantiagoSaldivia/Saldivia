@@ -162,14 +162,41 @@ label {
     flex-wrap: wrap;
 }
 
-@media(max-width: 600px){
-    .home div{
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    }
+
+
+
+/* Pagina de desayunos */
+.carousel-inner .active{
+    width: 700px;
+    height: 700px;
+    margin: 30px;
 }
 
+.carousel-item .active{
+    width: 700px;
+    height: 700px;
+    margin: 30px;
+}
+
+
+
 @media(max-width: 600px){
 
+    .carousel-inner{
+        width: 420px;
+        height: 400px;
+        padding: 0px;
+
+    }
+    .img-light{
+        width: 420px;
+        height: 400px;
+    }
+    .carousel-indicators{ 
+        width: 250px;
+        height: 400px;
+        
+    }
     .carta{
         text-decoration: none;
         display: flex;
@@ -191,9 +218,6 @@ label {
         text-transform: uppercase;
 
     }
-}
-@media(max-width: 600px){
-
     .reserva{
         text-decoration: none;
         display: flex;
@@ -217,46 +241,3 @@ label {
     }
 }
 
-/* Pagina de desayunos */
-.carousel-inner .active{
-    width: 700px;
-    height: 700px;
-    margin: 30px;
-}
-
-.carousel-item .active{
-    width: 700px;
-    height: 700px;
-    margin: 30px;
-}
-
-@media(max-width: 600px){
-   .carousel-indicators{ 
-    width: 250px;
-    height: 400px;
-    
-}
-}
-@media(max-width: 600px){
-
-    .carousel-inner{
-        width: 420px;
-        height: 400px;
-        padding: 0px;
-
-    }
-}
-@media(max-width: 600px){
-    .img-light{
-        width: 420px;
-        height: 400px;
-    }
-}
-@media(max-width: 600px){
-    .carousel-control-prev{
-        padding-left: 20px;
-        padding-bottom: 20px;
-    
-    }
-    
-}
