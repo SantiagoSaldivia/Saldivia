@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
 
 }
 
@@ -136,17 +137,6 @@ main {
 }
 
 
-footer {
-    display: flex;
-    background-color: rosybrown;
-    padding: 25px;
-   position: absolute;
-    bottom: 0;
-    width: 100%;
-    justify-content: space-between
-}
-
-
 
 
 
@@ -166,130 +156,107 @@ label {
     text-align: right;
 }
 
-/* ----------------------------------pagina de desayunos-------------------------------------------  */
-.lomito .lomito-titulo{
-    font-size: 50px;
-    color: white;
-    text-align: center;
-    margin: 50px 0 0 0;
-}
 
-.contenedor{
+.home{
     display: flex;
-    justify-content: space-around;
-    margin: 100px ;
-    padding: 0;
+    flex-wrap: wrap;
+}
+
+@media(max-width: 600px){
+    .home div{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+}
+
+@media(max-width: 600px){
+
+    .carta{
+        text-decoration: none;
+        display: flex;
+        border: 1px solid #1a2529;
+        width: 250px;
+        height: 50px;
+        text-align: center;
+        padding-top: 18px;
+        background-color: pink;
+        font-family: Arial, Helvetica, sans-serif;
+        transition: 2s;
+        -webkit-transition: 2s;
+        -o-transition: 2s;
+        -moz-transition: 2s;
+        -ms-transition: 2s;
+        box-shadow: -3px 3px 50px #000;
+        justify-content: center;
+        margin-bottom: 40px;
+        text-transform: uppercase;
+
+    }
+}
+@media(max-width: 600px){
+
+    .reserva{
+        text-decoration: none;
+        display: flex;
+        border: 1px solid #1a2529;
+        width: 250px;
+        height: 50px;
+        text-align: center;
+        padding-top: 18px;
+        background-color: pink;
+        font-family: Arial, Helvetica, sans-serif;
+        transition: 2s;
+        -webkit-transition: 2s;
+        -o-transition: 2s;
+        -moz-transition: 2s;
+        -ms-transition: 2s;
+        box-shadow: -3px 3px 50px #000;
+        justify-content: center;
+        margin-bottom: 40px;
+        text-transform: uppercase;
+
+    }
+}
+
+/* Pagina de desayunos */
+.carousel-inner .active{
+    width: 700px;
+    height: 700px;
+    margin: 30px;
+}
+
+.carousel-item .active{
+    width: 700px;
+    height: 700px;
+    margin: 30px;
+}
+
+@media(max-width: 600px){
+   .carousel-indicators{ 
+    width: 250px;
+    height: 400px;
     
 }
+}
+@media(max-width: 600px){
 
-.grid-completo{
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto;
-    border: 2px solid rosybrown;
-    font-size: 20px;
-    width: 404px;
-    height: 500px;
-    margin: 0;
-    padding: 0;
-    box-shadow: -7px 7px 50px rosybrown;
+    .carousel-inner{
+        width: 420px;
+        height: 400px;
+        padding: 0px;
+
+    }
+}
+@media(max-width: 600px){
+    .img-light{
+        width: 420px;
+        height: 400px;
+    }
+}
+@media(max-width: 600px){
+    .carousel-control-prev{
+        padding-left: 20px;
+        padding-bottom: 20px;
+    
+    }
     
 }
-
-.xl{
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto;
-    font-size: 20px;
-    width: 404px;
-    height: 500px;
-    margin: 0;
-    padding: 0;
-    box-shadow: -7px 7px 50px rosybrown;
-}
-
-
-
-
-.caja1{
-    border: 2px solid rosybrown;
-    color:rosybrown;
-    background-color:white ;
-    text-align: center ;
-    grid-column: 1/3;
-    height: 280px;
-    
-    
-    
-}
-.light{
-    width: 100%;
-    height: 248px;
-}
-.caja2{
-    border: 2px solid rosybrown;
-    color: black;
-    text-align: center;
-}
-.caja3{
-    border: 2px solid rosybrown;
-    color: black;
-    width: 200px;
-    text-align: center;
-}
-.caja4{
-    border: 2px solid rosybrown;
-    color:rosybrown;
-    background-color:white ;
-    text-align: center ;
-    grid-column: 1/3;
-    height: 250px;
-    border: 2px solid rosybrown;
-}
-.clasico{
-    width: 100%;
-    height: 248px;
-}
-
-.caja5{
-    border: 2px solid rosybrown;
-    color:rosybrown;
-    background-color:white ;
-    text-align: center ;
-    grid-column: 1/3;
-    height: 280px;
-    border: 2px solid rosybrown;
-}
-.proteico{
-    width: 100%;
-    height: 248px;
-}
-
-.caja6{
-    border: 2px solid rosybrown;
-    color: black;
-    width: 200px;
-    text-align: center;
-    min-height: 128px;
-}
-.caja7{
-    border: 2px solid rosybrown;
-    color: black;
-    width: 200px;
-    text-align: center;
-}
-.caja8{
-    border: 2px solid rosybrown;
-    color:rosybrown;
-    background-color:white ;
-    text-align: center ;
-    grid-column: 1/3;
-    height: 250px;
-    border: 2px solid rosybrown;
-}
-.desayuno-ingles{
-    width: 100%;
-    height: 248px;
-}
-
-
