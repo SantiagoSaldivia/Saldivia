@@ -1,0 +1,30 @@
+header nav ul li {
+    display: inline-block;
+    text-align: center;
+    color: white;
+    justify-content: end;
+    margin-left: 20px;
+}
+a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+header {
+    color: white;
+    background-color: rosybrown;
+    padding: 10px;
+}
+.links:hover {
+    background-color: palevioletred;
+}
+.nav-mine {
+
+    display: flex;
+    justify-content: space-between;
+
+}

@@ -1,0 +1,31 @@
+
+// FOOD
+.main-food {
+    background-image: radial-gradient(ellipse 660px 660px, red, brown);
+}
+
+.contenedor-food {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto;
+    margin: 30px;
+    padding: 30px;
+    width: 80%;
+    text-align: center;
+    font-size: 10px;
+    color: white;
+}
+
+
+.caja-food:hover {
+    transform: scale(1.2);
+}
+
+.footer-food {
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    background-color: rosybrown;
+    padding-top: 20px;
+    bottom: 0;
+}

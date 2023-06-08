@@ -1,0 +1,29 @@
+// cafeteria 
+
+.cafeteria {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+
+
+}
+
+.coffeebox {
+    color: white;
+    background-image: url("../assets/images/Cafe\ en\ grano.jpg");
+    font-size: 20px;
+}
+
+.main-cafeteria {
+    background-image: linear-gradient(brown, rgb(73, 6, 6), );
+}
+
+.coffeebox img {
+    width: 200px;
+    height: 200px;
+}
