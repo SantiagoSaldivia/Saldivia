@@ -10,7 +10,7 @@
         display: flex;
         border: 1px solid #1a2529;
         width: 250px;
-        height: 50px;
+        height: 110px;
         text-align: center;
         padding-top: 18px;
         background-color: pink;
@@ -24,31 +24,12 @@
         justify-content: center;
         margin-bottom: 40px;
         text-transform: uppercase;
+    
+    } 
 
-    }
-
-    .reserva {
-        text-decoration: none;
-        display: flex;
-        border: 1px solid #1a2529;
-        width: 250px;
-        height: 50px;
-        text-align: center;
-        padding-top: 18px;
-        background-color: pink;
-        font-family: Arial, Helvetica, sans-serif;
-        transition: 2s;
-        -webkit-transition: 2s;
-        -o-transition: 2s;
-        -moz-transition: 2s;
-        -ms-transition: 2s;
-        box-shadow: -3px 3px 50px #000;
-        justify-content: center;
-        margin-bottom: 40px;
-        text-transform: uppercase;
-
-    }
 }
+
+   
 
 /* DESAYUNOS HTML*/
 @media(max-width: 600px) {
@@ -68,20 +49,28 @@ h1.titulo-desayunos{
 
 /* cafeteria HTML*/
 @media(max-width: 600px) {
- .cafeteria{
-    display: block;
-    width: 350px;
+ div.cafeteria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
     text-align: center;
-    margin: 0;
  }
  div.coffeebox{
-    width: 150px;
+    width: 80%;
+    margin-bottom: 2rem;
     font-size: 20px;
+
  }
  div.coffeebox img{
-    width: 60px;
-    height: 60px;
+    width: 90px;
+    height: 90px;
  }
+
+ .cafeteria h2{
+    font-size: 28px;
+ }
+
 
 }
 
@@ -90,8 +79,13 @@ h1.titulo-desayunos{
 
     div.contenedor-food{
         display: block;
+      font-size: 16px;
+
     }
-    
+    .caja-food{
+        margin-bottom: 80px;
+    }
+
 }
 
 /* PROMOS HTML*/
@@ -106,17 +100,3 @@ div.contenedor-comida{
 
 }
 
-// contacto html
-
-
-    @media(max-width: 600px){
-        .pedido h2{
-            font-size: 20px;
-            margin: 40px 0 0 0;
-        }
-    
-        .pedido form{
-            width: 350px;
-            height: 200px;
-        }
-    }
