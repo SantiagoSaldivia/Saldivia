@@ -1,9 +1,6 @@
-
-
-
 /* INDEX HTML*/
 @media(max-width: 600px) {
- 
+
 
     .carta {
         text-decoration: none;
@@ -24,65 +21,69 @@
         justify-content: center;
         margin-bottom: 40px;
         text-transform: uppercase;
-    
-    } 
+
+    }
 
 }
 
-   
+
 
 /* DESAYUNOS HTML*/
 @media(max-width: 600px) {
-    div.grid-layout{
+    .grid-layout{
         display: block;
     }
 
-header.header-desayunos{
-    position: relative;
-    width: 100%;
-}
-h1.titulo-desayunos{
-    text-align: center;
-    font-size: 40px;
-}
+    header.header-desayunos {
+        position: relative;
+        width: 100%;
+    }
+
+    h1.titulo-desayunos {
+        text-align: center;
+        font-size: 40px;
+    }
 }
 
 /* cafeteria HTML*/
 @media(max-width: 600px) {
- div.cafeteria{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    text-align: center;
- }
- div.coffeebox{
-    width: 80%;
-    margin-bottom: 2rem;
-    font-size: 20px;
+    div.cafeteria {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+    }
 
- }
- div.coffeebox img{
-    width: 90px;
-    height: 90px;
- }
+    div.coffeebox {
+        width: 80%;
+        margin-bottom: 2rem;
+        font-size: 20px;
 
- .cafeteria h2{
-    font-size: 28px;
- }
+    }
+
+    div.coffeebox img {
+        width: 90px;
+        height: 90px;
+    }
+
+    .cafeteria h2 {
+        font-size: 28px;
+    }
 
 
 }
 
 /*FOOD HTML*/
-@media(max-width: 600px){
+@media(max-width: 600px) {
 
-    div.contenedor-food{
+    div.contenedor-food {
         display: block;
-      font-size: 16px;
+        font-size: 16px;
 
     }
-    .caja-food{
+
+    .caja-food {
         margin-bottom: 80px;
     }
 
@@ -90,13 +91,13 @@ h1.titulo-desayunos{
 
 /* PROMOS HTML*/
 @media(max-width: 600px) {
-   div.grid-promos{
-    display: block;
-}
-div.contenedor-comida{
-    display: block;
-    text-align: center;
-}
+    div.grid-promos {
+        display: block;
+    }
+
+    div.contenedor-comida {
+        display: block;
+        text-align: center;
+    }
 
 }
-
