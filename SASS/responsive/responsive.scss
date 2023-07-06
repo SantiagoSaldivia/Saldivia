@@ -30,10 +30,7 @@
 
 /* DESAYUNOS HTML*/
 @media(max-width: 600px) {
-    .grid-layout{
-        display: block;
-    }
-
+ 
     header.header-desayunos {
         position: relative;
         width: 100%;
@@ -42,8 +39,16 @@
     h1.titulo-desayunos {
         text-align: center;
         font-size: 40px;
+    
+
     }
+    .grid-layout {
+        display: block;
+        font-size: 16px;
+    }
+
 }
+
 
 /* cafeteria HTML*/
 @media(max-width: 600px) {

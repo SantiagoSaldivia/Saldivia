@@ -77,9 +77,6 @@
 }
 /* DESAYUNOS HTML*/
 @media (max-width: 600px) {
-  div.grid-layout {
-    display: block;
-  }
   header.header-desayunos {
     position: relative;
     width: 100%;
@@ -87,6 +84,10 @@
   h1.titulo-desayunos {
     text-align: center;
     font-size: 40px;
+  }
+  .grid-layout {
+    display: block;
+    font-size: 16px;
   }
 }
 /* cafeteria HTML*/
@@ -141,22 +142,18 @@
   text-align: center;
   padding: 10px;
 }
-
-.cafeteria p {
+.cafeteria .cafeteria p {
   background-color: rgba(0, 0, 0, 0.685);
 }
-
-.coffeebox {
+.cafeteria .coffeebox {
   color: white;
   background-image: url("../assets/images/Cafe en grano.jpg");
   font-size: 20px;
 }
-
-.main-cafeteria {
+.cafeteria .main-cafeteria {
   background-image: linear-gradient(brown, rgb(73, 6, 6));
 }
-
-.coffeebox img {
+.cafeteria .coffeebox img {
   width: 200px;
   height: 200px;
 }
@@ -166,28 +163,23 @@
 }
 
 .grid-layout {
-  display: grid;
   grid-template-columns: 350px 350px 350px;
   grid-template-rows: 400px 400px 400px;
   justify-content: center;
-  width: 80%;
+  width: auto;
   margin: 0 auto;
   text-align: center;
   padding: 10px;
 }
-
-.caja {
-  background-color: darksalmon;
+.grid-layout .caja {
   text-align: center;
   margin: 25px;
 }
-
-.img-desayunos {
-  width: 100%;
-  height: 100%;
+.grid-layout .img-desayunos {
+  width: 60%;
+  height: 60%;
 }
-
-.titulo-desayuno {
+.grid-layout .titulo-desayuno {
   font-size: 30px;
   padding: 0;
   margin: 0;
@@ -222,15 +214,6 @@
 
 .caja-food:hover {
   transform: scale(1.2);
-}
-
-.footer-food {
-  font-size: 30px;
-  text-align: center;
-  position: relative;
-  background-color: rosybrown;
-  padding-top: 20px;
-  bottom: 0;
 }
 
 header nav ul li {
@@ -276,6 +259,12 @@ main {
 footer {
   background-color: rosybrown;
   padding: 25px;
+}
+
+.footer-pr ul a {
+  display: flex;
+  justify-content: space-around;
+  font-size: 30px;
 }
 
 * {
